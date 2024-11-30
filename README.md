@@ -3,7 +3,20 @@
 
 Welcome to the **Deadpool-Themed Web Application**! This project is built using **React**, **Node.js**, **Express**, and **MongoDB**. It features a unique Deadpool-inspired design with interactive elements and fun animations.
 
+
 ## Features
+
+- **Dynamic Navbar**: A Deadpool-themed responsive navbar with a toggleable sidebar, dark mode, and hover effects.
+- **Chatbot**: A conversational chatbot with a blurred Deadpool-themed background.
+- **Coming Soon Page**: A creatively designed "Coming Soon" page in Deadpool style.
+- **About Us Page**: A dedicated page showcasing the creator's identity (Nexusrex18) in Deadpool's theme.
+- **Framer Motion Animations**: Smooth animations for hover effects, scaling, and toggles.
+- **Authentication**: Login and logout functionality with token-based authentication.
+- **Dark Mode Support**: Toggle between dark and light modes seamlessly.
+- **My Movies and Comics Page**: A dedicated section showcasing Deadpool's iconic movies and comics.
+- **Meme Generator**: Create hilarious Deadpool-themed memes with a custom meme generator.
+- **Interesting Deadpool Game**: A fun interactive game inspired by Deadpool's quirky personality.
+
 
 - **Dynamic Navbar**: A Deadpool-themed responsive navbar with a toggleable sidebar, dark mode, and hover effects.
 - **Chatbot**: A conversational chatbot with a blurred Deadpool-themed background.
@@ -68,12 +81,14 @@ Welcome to the **Deadpool-Themed Web Application**! This project is built using 
 
 4. Open your browser and navigate to `http://localhost:5173` (for the React app).
 
+
 ## Technologies Used
 
 - **Frontend**: React, TailwindCSS, Framer Motion
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: Token-based authentication
+- **API Integration**: Gemini API for extended functionality
 
 ## Creator
 
@@ -88,7 +103,7 @@ Deadpool-styled navbar with a toggleable sidebar and interactive animations.
 A responsive chatbot with a blurred Deadpool-themed background.
 
 ### Coming Soon Page
-A placeholder page with Deadpool humor and animations.
+A placeholder page with Deadpool Merchandise and more..
 
 ### About Us Page
 A page dedicated to the creator, with Deadpool-inspired design.
