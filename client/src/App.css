@@ -1,0 +1,39 @@
+/* Global Styles
+body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .theme-toggle-btn {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .theme-toggle-btn:hover {
+    background-color: #444;
+  }
+  
+  /* Light Mode (Day) */
+  /* .light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Mode (Night) */
+  /* .dark {
+    background-color: #121212;
+    color: white;
+  } */

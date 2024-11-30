@@ -1,0 +1,10 @@
+export { default as MainPage } from "./MainPage";
+export { default as Login } from "./Login";
+export { default as GamePage } from "./GamePage";
+export { default as MemeGenerator } from "./MemeGenerator";
+export { default as AnotherGame } from "./AnotherGame";
+export { default as ComicPage } from "./ComicPage";
+export { default as PageNotFound } from "./PageNotFound";
+export { default as MoviesPage } from "./MoviesPage";
+export { default as SubscriptionPage } from "./SubscriptionPage";
+export { default as AboutUsPage } from "./AboutUsPage";

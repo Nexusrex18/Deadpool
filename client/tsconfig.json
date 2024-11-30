@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "allowJs": true,
+      "jsx": "react-jsx",
+      "noEmit": true,
+      "skipLibCheck": true  // Skip checking declaration files
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.ts"
+    ]
+  }
+  
