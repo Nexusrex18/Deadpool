@@ -17,15 +17,6 @@ Welcome to the **Deadpool-Themed Web Application**! This project is built using 
 - **Meme Generator**: Create hilarious Deadpool-themed memes with a custom meme generator.
 - **Interesting Deadpool Game**: A fun interactive game inspired by Deadpool's quirky personality.
 
-
-- **Dynamic Navbar**: A Deadpool-themed responsive navbar with a toggleable sidebar, dark mode, and hover effects.
-- **Chatbot**: A conversational chatbot with a blurred Deadpool-themed background.
-- **Coming Soon Page**: A creatively designed "Coming Soon" page in Deadpool style.
-- **About Us Page**: A dedicated page showcasing the creator's identity (Nexusrex18) in Deadpool's theme.
-- **Framer Motion Animations**: Smooth animations for hover effects, scaling, and toggles.
-- **Authentication**: Login and logout functionality with token-based authentication.
-- **Dark Mode Support**: Toggle between dark and light modes seamlessly.
-
 ## Project Structure
 
 ```
