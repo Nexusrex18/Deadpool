@@ -17,38 +17,42 @@ const Chatbot = () => {
   const handleInputChange = (e) => setUserMessage(e.target.value);
 
   // Handle sending a message
-  const handleSendMessage = async () => {
-    if (!userMessage.trim()) return;
+ const handleSendMessage = async () => {
+  if (!userMessage.trim()) return;
 
-    // Add user's message to chat
-    const updatedMessages = [
-      ...messages,
-      { sender: "user", text: userMessage },
-    ];
-    setMessages(updatedMessages);
-    setUserMessage("");
-    setIsLoading(true);
+  // Add user's message to chat
+  const updatedMessages = [
+    ...messages,
+    { sender: "user", text: userMessage },
+  ];
+  setMessages(updatedMessages);
+  setUserMessage("");
+  setIsLoading(true);
 
-    try {
-      // Send message to backend and get bot's reply
-      const { data } = await chatWithBot(userMessage);
+  try {
+    // Append a string to make Deadpool-style response
+    const deadpoolPrompt = `${userMessage} (Respond in Deadpool's humorous and sarcastic tone)`;
 
-      // The bot's response is now inside 'data.reply' from your backend
-      const botMessage = data.reply || "Oops! Deadpool's busy saving the day.";
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { sender: "bot", text: botMessage },
-      ]);
-    } catch (error) {
-      console.error("Error in chatbot interaction:", error);
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { sender: "bot", text: "Deadpool's brain just had a glitch!" },
-      ]);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+    // Send message to backend and get bot's reply
+    const { data } = await chatWithBot(deadpoolPrompt);
+
+    // The bot's response is now inside 'data.reply' from your backend
+    const botMessage = data.reply || "Oops! Deadpool's busy saving the day.";
+    setMessages((prevMessages) => [
+      ...prevMessages,
+      { sender: "bot", text: botMessage },
+    ]);
+  } catch (error) {
+    console.error("Error in chatbot interaction:", error);
+    setMessages((prevMessages) => [
+      ...prevMessages,
+      { sender: "bot", text: "Deadpool's brain just had a glitch!" },
+    ]);
+  } finally {
+    setIsLoading(false);
+  }
+};
+
 
   return (
     <>
