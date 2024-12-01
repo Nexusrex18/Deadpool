@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "https://deadpool-six.vercel.app/",
+    origin: "https://deadpool-six.vercel.app",
     credentials: true,
   })
 );
