@@ -4,7 +4,7 @@ import DeadpoolImage1 from "../assets/deadpool1.png";
 import DeadpoolImage2 from "../assets/deadpool2.png";
 import DeadpoolImage3 from "../assets/deadpool3.png";
 import DeadpoolImage4 from "../assets/deadpool4.png";
-import DeadpoolImage5 from "../assets/deadpool5.png";
+//import DeadpoolImage5 from "../assets/deadpool5.png";
 import DeadpoolImage6 from "../assets/deadpool6.png";
 import DeadpoolImage7 from "../assets/deadpool7.png";
 
@@ -57,14 +57,14 @@ const DraggableImages = () => {
           dragConstraints={constraintsRef}
           whileTap={{ rotate: -10 }}
         />
-        <motion.img
+{/*         <motion.img
           src={DeadpoolImage5}
           alt="Deadpool 5"
           className="absolute top-1/2 left-1/4 w-32 h-32 object-cover rounded-full shadow-lg transform -translate-y-1/2"
           drag
           dragConstraints={constraintsRef}
           whileTap={{ scale: 1.1 }}
-        />
+        /> */}
         <motion.img
           src={DeadpoolImage6}
           alt="Deadpool 6"
