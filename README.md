@@ -1,8 +1,6 @@
-
 # Deadpool-Themed React Web Application
 
 Welcome to the **Deadpool-Themed Web Application**! This project is built using **React**, **Node.js**, **Express**, and **MongoDB**. It features a unique Deadpool-inspired design with interactive elements and fun animations.
-
 
 ## Features
 
@@ -19,22 +17,117 @@ Welcome to the **Deadpool-Themed Web Application**! This project is built using 
 
 ## Project Structure
 
+Here is the detailed directory structure for the project:
+
 ```
-📂 client
-├── 📂 src
-│   ├── 📂 assets
-│   │   └── dead.png (Deadpool image used in the app)
-│   ├── 📂 components
-│   │   ├── Navbar.jsx (Main navigation bar)
-│   │   ├── Sidebar.jsx (Sidebar for navigation)
-│   │   ├── Chatbot.jsx (Interactive chatbot component)
-│   │   └── ComingSoon.jsx ("Coming Soon" page)
-│   ├── 📂 pages
-│   │   └── AboutUs.jsx (About Us page with Deadpool theme)
-│   └── App.jsx (Main application file)
-└── 📂 server
-    ├── server.js (Express server setup)
-    └── routes (API routes for chatbot and authentication)
+C:.
+\---Deadpool
+    |   -d
+    |   -H
+    |   -X
+    |   README.md
+    |
+    +---client
+    |   |   .gitignore
+    |   |   eslint.config.js
+    |   |   globals.css
+    |   |   package-lock.json
+    |   |   package.json
+    |   |   postcss.config.js
+    |   |   README.md
+    |   |   tailwind.config.js
+    |   |   tsconfig.json
+    |   |
+    |   +---public
+    |   |       favicon.ico
+    |   |       index.html
+    |   |       logo192.png
+    |   |       logo512.png
+    |   |       manifest.json
+    |   |       robots.txt
+    |   |
+    |   \---src
+    |       |   App.css
+    |       |   App.jsx
+    |       |   index.js
+    |       |
+    |       +---assets
+    |       |       dead.png
+    |       |       deadcht.jpg
+    |       |       deaddoggy.jpeg
+    |       |       deadgun.jpeg
+    |       |       deadpool1.png
+    |       |       deadpool2.png
+    |       |       deadpool3.png
+    |       |       deadpool4.png
+    |       |       deadpool5.png
+    |       |       deadpool6.png
+    |       |       deadpool7.png
+    |       |       deadpoolg.gif
+    |       |       deadprof.png
+    |       |       deadsub1.jpeg
+    |       |       deadsub2.png
+    |       |       deady.png
+    |       |       deady2.png
+    |       |       image.json
+    |       |       pagenot.jpeg
+    |       |       react.svg
+    |       |
+    |       +---components
+    |       |       Chatbot.jsx
+    |       |       DraggableImages.jsx
+    |       |       Footer.jsx
+    |       |       index.js
+    |       |       IntroCard.jsx
+    |       |       Loader.jsx
+    |       |       Navbar.jsx
+    |       |       Sidebar.jsx
+    |       |
+    |       +---context
+    |       |       index.js
+    |       |       ThemeContext.js
+    |       |
+    |       +---lib
+    |       |       utils.js
+    |       |
+    |       +---pages
+    |       |       AboutUsPage.jsx
+    |       |       AnotherGame.jsx
+    |       |       ComicPage.jsx
+    |       |       GamePage.jsx
+    |       |       index.js
+    |       |       Login.jsx
+    |       |       MainPage.jsx
+    |       |       MemeGenerator.jsx
+    |       |       MoviesPage.jsx
+    |       |       PageNotFound.jsx
+    |       |       SubscriptionPage.jsx
+    |       |
+    |       +---services
+    |       |       api.js
+    |       |
+    |       \---styles
+    |               tailwind.css
+    |
+    \---server
+        |   .gitignore
+        |   app.js
+        |   package-lock.json
+        |   package.json
+        |   server.js
+        |
+        +---controllers
+        |       chatbotController.js
+        |       movieController.js
+        |
+        +---models
+        |       Movie.js
+        |       User.js
+        |
+        \---routes
+                authRoutes.js
+                chatbotRoutes.js
+                movieRoutes.js
 ```
 
 ## Installation
@@ -70,8 +163,7 @@ Welcome to the **Deadpool-Themed Web Application**! This project is built using 
    npm run dev
    ```
 
-4. Open your browser and navigate to `http://localhost:5173` (for the React app).
-
+4. Open your browser and navigate to [http://localhost:5173](http://localhost:5173) (for the React app).
 
 ## Technologies Used
 
@@ -94,7 +186,7 @@ Deadpool-styled navbar with a toggleable sidebar and interactive animations.
 A responsive chatbot with a blurred Deadpool-themed background.
 
 ### Coming Soon Page
-A placeholder page with Deadpool Merchandise and more..
+A placeholder page with Deadpool Merchandise and more.
 
 ### About Us Page
 A page dedicated to the creator, with Deadpool-inspired design.
@@ -106,3 +198,4 @@ This project is licensed under the MIT License.
 ---
 
 **Enjoy the fun and interactivity of Deadpool! If you have any questions, feel free to reach out.**
+
