@@ -22,9 +22,6 @@ Here is the detailed directory structure for the project:
 ```
 C:.
 \---Deadpool
-    |   -d
-    |   -H
-    |   -X
     |   README.md
     |
     +---client
