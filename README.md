@@ -135,8 +135,8 @@ C:.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo/deadpool-themed-app.git
-   cd deadpool-themed-app
+   git clone https://github.com/Nexusrex18/Deadpool.git
+   cd Deadpool
    ```
 
 2. Install dependencies for both the client and server:
